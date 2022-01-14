@@ -4,13 +4,14 @@
 }
 
 .tab-bar {
-  width: max-content;
-  margin-top: 36px;
-  margin-left: 83px;
-  margin-right: 93px;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.title {
+.tab-bar a {
   text-decoration: none;
   color: #000000;
   font-size: 20px;
@@ -18,26 +19,30 @@
   font-weight: bold;
   font-family: 'Inter';
   line-height: 24px;
-  margin-right: 296px;
 }
 
-.search {
-  border: none;
-  padding: 11px;
-  margin-right: 150px;
+.itens {
+  display: flex;
+  flex-flow: row;
+  width: 578px;
+  justify-content: space-between;
 }
 
-.menu-item {
+.itens ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
+
+.itens ul li a {
+  margin-left: 30px;
   font-family: 'Inter';
   text-decoration: none;
   color: #000000;
   font-weight: normal;
   font-size: 16px;
-  margin-right: 30px;
 }
 
-.menu-item-icons {
-  margin-right: 31px;
-  color: #000000;
-  text-decoration: none;
+.itens input {
+  border: none;
 }
