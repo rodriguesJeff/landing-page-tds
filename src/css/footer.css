@@ -1,0 +1,23 @@
+.footer h4 {
+  padding-top: 29px;
+  margin-left: 93px;
+  margin-bottom: 31px;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+}
+
+.footer h4 label {
+  font-weight: 700;
+}
+
+.footer-icons {
+  padding-top: 29px;
+  margin-right: 93px;
+  margin-bottom: 31px;
+}
+
+.footer-icons i {
+  margin-left: 30px;
+  color: #000;
+}

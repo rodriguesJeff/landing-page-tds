@@ -26,7 +26,9 @@
 
 .footer {
   grid-area: footer;
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
 }
 
 .container-master {
