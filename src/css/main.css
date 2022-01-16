@@ -144,3 +144,27 @@
   flex-flow: wrap;
   justify-content: space-between;
 }
+
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 93px;
+  margin-top: 43px;
+}
+
+.see-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6b46c1;
+  border-radius: 5px;
+  color: white;
+  width: 122px;
+  height: 37px;
+}
+
+.see-more i {
+  width: 20px;
+  height: 20px;
+  padding-top: 5px;
+}
