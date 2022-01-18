@@ -1,0 +1,17 @@
+.container-post {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 45px;
+}
+
+.container-post img {
+  width: 973px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.container-post h1 {
+  color: #2d3748;
+  font-size: 45px;
+  margin-top: 40px;
+}
