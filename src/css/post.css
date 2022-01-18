@@ -28,13 +28,16 @@
   font-weight: normal;
   color: #718096;
   font-style: normal;
+  margin-bottom: 10px;
 }
 
-.post-content::before {
-  content: '&nbsp;';
-  font-size: 0;
-  display: block;
-  line-height: 0;
+.post-content h4 {
+  color: #2d3748;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .post-info {
@@ -55,4 +58,12 @@
   color: #718096;
   font-size: 18px;
   font-weight: normal;
+}
+
+.post-subtitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 700;
+  color: #2d3748;
 }
