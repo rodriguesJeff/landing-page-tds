@@ -23,11 +23,18 @@
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/main.css" />
     <link rel="stylesheet" href="src/css/footer.css" />
+
+    <!-- JQUERY IMPORT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- LOCAL JAVASCRIPT IMPORT -->
+    <script src="./src/js/image_transition.js"></script>
+    <script src="./src/js/go_to_posts.js"></script>
   </head>
   <body>
     <div class="container-master">
       <div class="header">
-        <a class="header-brand" href="#">HotCoffee</a>
+        <a class="header-brand" href="index.html">HotCoffee</a>
         <div class="search-section">
           <i class="bi bi-search"></i>
           <input type="search" class="header-search" placeholder="Search..." />
@@ -35,7 +42,9 @@
         <nav class="menu">
           <ul>
             <li><a class="menu-text" href="#"> Home </a></li>
-            <li><a class="menu-text" href="#"> Articles </a></li>
+            <li>
+              <a class="menu-text" href="#" onclick="goToPosts()"> Articles </a>
+            </li>
             <li>
               <a href="#"><i class="bi bi-instagram"></i></a>
             </li>
@@ -69,56 +78,50 @@
               <h6 class="read-more">Read more</h6>
             </div>
           </div>
-          <img src="src/images//user.jpg" alt="" />
+          <img src="src/images/user.jpg" />
         </div>
         <div class="container-posts">
-          <a href="./post.html">
-            <div class="container-post-1">
-              <img src="src/images/posts-image-1.jpg" alt="" />
-              <h3>long established</h3>
-              <h5>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that....
-              </h5>
-              <div class="container-post-footer">
-                <h6 class="date">May 20th 2020</h6>
-                <h6 class="read-more">Read more</h6>
-              </div>
+          <div class="container-post-1" onclick="openPost()">
+            <img src="src/images/posts-image-1.jpg" />
+            <h3>long established</h3>
+            <h5>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that....
+            </h5>
+            <div class="container-post-footer">
+              <h6 class="date">May 20th 2020</h6>
+              <h6 class="read-more">Read more</h6>
             </div>
-          </a>
+          </div>
 
-          <a href="./post.html">
-            <div class="container-post-2">
-              <img src="src/images/posts-image-2.jpg" alt="" />
-              <h3>long established</h3>
-              <h5>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that....
-              </h5>
-              <div class="container-post-footer">
-                <h6 class="date">May 20th 2020</h6>
-                <h6 class="read-more">Read more</h6>
-              </div>
+          <div class="container-post-2" onclick="openPost()">
+            <img src="src/images/posts-image-2.jpg" />
+            <h3>long established</h3>
+            <h5>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that....
+            </h5>
+            <div class="container-post-footer">
+              <h6 class="date">May 20th 2020</h6>
+              <h6 class="read-more">Read more</h6>
             </div>
-          </a>
+          </div>
 
-          <a href="./post.html">
-            <div class="container-post-3">
-              <img src="src/images/posts-image-3.jpg" alt="" />
-              <h3>long established</h3>
-              <h5>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that....
-              </h5>
-              <div class="container-post-footer">
-                <h6 class="date">May 20th 2020</h6>
-                <h6 class="read-more">Read more</h6>
-              </div>
+          <div class="container-post-3" onclick="openPost()">
+            <img src="src/images/posts-image-3.jpg" />
+            <h3>long established</h3>
+            <h5>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that....
+            </h5>
+            <div class="container-post-footer">
+              <h6 class="date">May 20th 2020</h6>
+              <h6 class="read-more">Read more</h6>
             </div>
-          </a>
+          </div>
         </div>
         <div class="see-more">
           <div class="see-more-button">
