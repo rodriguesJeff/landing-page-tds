@@ -9,6 +9,7 @@
 - Uso do grid para trabalhar alinhamentos
 - Uso to Bootstrap Icons
 - Uso do Google Fonts
+- Todos os arquivos usados estão na pasta src/ separados de acordo com seu tipo
 
 <br/> <br/>
 
