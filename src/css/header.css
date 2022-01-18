@@ -40,16 +40,38 @@
 }
 
 @media only screen and (max-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
+  .header {
+    width: 80%;
   }
 
-  .header {
-    background-color: red;
+  .header-brand {
+    padding: 20px;
+    font-size: 40px;
+  }
+
+  .search-section > i {
+    display: none;
+  }
+
+  .header-search {
+    display: none;
+  }
+  .menu {
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-flow: column;
-    justify-content: start;
-    align-items: flex-start;
+  }
+
+  .menu ul > li {
+    margin-left: 0px;
+  }
+
+  .menu-text {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .menu i {
+    display: none;
   }
 }
