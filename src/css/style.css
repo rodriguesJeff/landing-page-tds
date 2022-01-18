@@ -38,10 +38,34 @@
     'main main'
     'footer footer';
   grid-gap: 10px;
-  /* background-color: #ee0000; */
 }
 
 .container-master > div {
   text-align: center;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+  }
+
+  .container-master {
+    display: grid;
+    grid-template-areas:
+      'header'
+      'main'
+      'main'
+      'footer';
+    grid-gap: 10px;
+  }
+
+  .header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

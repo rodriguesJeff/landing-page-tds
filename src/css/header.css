@@ -38,3 +38,18 @@
 .menu i {
   font-size: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    background-color: red;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+}
